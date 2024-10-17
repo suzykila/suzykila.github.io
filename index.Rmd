@@ -24,3 +24,5 @@ markdown format embedding
 html format
 
 If you'd like to learn more about this website, visti [this page](about.html) #it is case-sensitive
+
+Now I can put stuff on the internet
