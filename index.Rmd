@@ -1,0 +1,26 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# This is Jeff's awesome website
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+This is an **awesome website** about data science and elmo?
+
+Sometimes I use [google](https://www.google.com/) to do data science when I'm stuck.
+
+This is my cat 
+
+![](./11.png)
+markdown format embedding
+
+<img src="11.png" style="width:75%">
+html format
+
+If you'd like to learn more about this website, visti [this page](about.html) #it is case-sensitive

@@ -1,0 +1,28 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+#Here are some plots
+
+You can make plots in the same way as always.
+
+```{r message= FALSE}
+library(tidyverse)
+
+set.seed(1)
+
+plot_df = tibble(
+  x = rnorm(1000, sd = .5),
+  y = 1 + 2 * x + rnorm(1000)
+)
+
+ggplot(plot_df, aes(x = x)) + geom_histogram()
+
+
+```
+
