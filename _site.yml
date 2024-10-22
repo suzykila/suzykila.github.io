@@ -7,6 +7,8 @@ navbar:
       href: about.html
     - text: "plots"
       href: plots.html
+    - text: "Plotly"
+      href: plotly.html
     - icon: fa-envelope fa-lg
       href: mailto:<you@youremail.com>
     - icon: fa-github fa-lg
